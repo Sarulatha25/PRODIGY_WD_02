@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('white.jpg');
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-image: url('white.jpg');
+    padding: 5px;
+    width: 350px;
+    
+    text-align: center;
+}
+
+#Duration{
+    font-size: 55px;
+    padding: 20px;
+}
+
+.lapsButtons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.lapsButtons button{
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background: black;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+#laps{
+    height: 200px;
+    padding: 10px;
+    overflow: auto;
+}
+
+#laps li{
+    font-size: 22px;
+    padding: 10px;
+}
+
+#pause,#reset{
+    background: red;
+}
