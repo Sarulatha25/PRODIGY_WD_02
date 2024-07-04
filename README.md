@@ -10,6 +10,8 @@ This project is a Stopwatch Web Application. It will track and display the lap t
 
 Languages used: HTML, CSS, JavaScript
 
+Website Link:https://stopwatch-1125.netlify.app/
+
 <div align="center">
   <img src="./screenshots.png" />
 </div>
